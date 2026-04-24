@@ -21,3 +21,8 @@ public class total_bill{
         sc.close();
     }
 }
+
+
+
+
+
