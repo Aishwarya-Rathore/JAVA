@@ -1,6 +1,26 @@
 Super:- the keyword that is used to use parant class thing in child class..
+
 polymorephism:- to have many form..it has two type:-
 1. compile time(method overloading)..
 2.run time(method overridding)...
-** operator overloading:-java me nahi hoti..example:-c++ mecout ke sath<< ye use hota h(left shift) also use for comparision..
-ese hi & and or operator bhi..its very simple buddy!!
+
+** operator overloading:- java me nahi hoti..example:-c++ mecout ke sath<< ye use hota h
+(left shift) also use for comparision..ese hi & and or operator bhi..its very simple buddy!!
+
+**DATA STRUCTURE**
+1. arrayList
+2. HashMap
+3. HashSet
+4. LinkedList
+5. string
+6. String builder
+7. String Buffer
+
+String:- in java String is a final class.it is immutable because it is thread safe.its all methods
+are synchronous in nature.slow in nature.final keyword ka mtlb h ye inharite nahi ho sakti.
+
+String_Buffer:- it is mutable final class.it is thread safe i.e.(its all methods are synchronous in nature).
+
+
+String_Builder:- same as String_Buffer but it is thread unsafe and Faster Operation
+SCP:- stands for "String constant pool" exist in JVM.
