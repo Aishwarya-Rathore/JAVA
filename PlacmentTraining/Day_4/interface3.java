@@ -25,3 +25,10 @@ public class interface3 {
         t.showB();
     }
 }
+
+/*implement a class payment that implements 3 interfaces 
+upi:-in this interface we are having a default method payment...
+credit card:-in this interface we are having a default method payment..
+debit card:-in this interface we are having a default method payment..
+now accept a payment method from tha main class orr main func. and implement its payment function
+*/
