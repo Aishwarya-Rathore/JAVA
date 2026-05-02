@@ -1,0 +1,6 @@
+Super:- the keyword that is used to use parant class thing in child class..
+polymorephism:- to have many form..it has two type:-
+1. compile time(method overloading)..
+2.run time(method overridding)...
+** operator overloading:-java me nahi hoti..example:-c++ mecout ke sath<< ye use hota h(left shift) also use for comparision..
+ese hi & and or operator bhi..its very simple buddy!!
