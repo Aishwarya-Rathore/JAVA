@@ -1,0 +1,16 @@
+Array:- it is a derived data type..that store the element in contigous memory location
+        it has static size and can be only accessed using index..
+
+कंपाइलर ऐरे के एलिमेंट को इस फॉर्मूले से ढूँढता है: Address = Base_Address + Index।अगर पहला इंडेक्स \(0\) है, तो कैलकुलेशन Base_Address + 0 = Base_Address होती है (सीधे पहले एलिमेंट पर), जो बहुत तेज़ है।अगर इंडेक्स \(1\) से शुरू होता, तो फॉर्मूला Base_Address + (Index - 1) हो जाता, जिससे हर बार एक एक्स्ट्रा घटाने का काम करना पड़ता।
+
+Arraylist:- insertion order maintian rakhta h.new element add karne ke liye add() h..Arrayke sare question 3 concept me cover ho jate h isse bahar koi solution nahi h.
+1. Sliding Window
+2.
+3.
+
+
+ArrayList Operation:- https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+
+HashSet:-ArrayList ke jesa hota h but order maintain nahi karta.Duplication remove karta h
+HashSet<dataType> name = new HashSet<>();
+

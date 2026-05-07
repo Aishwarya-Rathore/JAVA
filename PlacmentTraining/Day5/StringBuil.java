@@ -18,5 +18,6 @@ public class StringBuil {
 
         System.out.println(sb.charAt(5)); // Output: J
 
+
     }
 }
