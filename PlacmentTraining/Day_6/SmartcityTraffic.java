@@ -16,5 +16,6 @@ public class SmartcityTraffic {
            max = max<Sum?Sum:max;
         }
         System.out.println(max);
+        sc.close();
     }
 }

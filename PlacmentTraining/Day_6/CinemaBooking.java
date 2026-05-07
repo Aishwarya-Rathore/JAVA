@@ -5,7 +5,22 @@ import java.util.*;
 public class CinemaBooking {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
+        int n = sc.nextInt();
+        int[] seats = new int[n];
+        for (int i = 0; i < n; i++) {
+            seats[i] = sc.nextInt();
+        }
+        int maxEmpty = 0;
+        int currentEmpty = 0;
+        for (int i = 0; i < n; i++) {
+            if (seats[i] == 0) {
+                currentEmpty++;
+                maxEmpty = Math.max(maxEmpty, currentEmpty);
+            } else {
+                currentEmpty = 0;
+            }
+        }
+        System.out.println(maxEmpty);
         sc.close();
     }
 }

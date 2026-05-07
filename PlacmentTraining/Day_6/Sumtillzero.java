@@ -13,5 +13,6 @@ public class Sumtillzero {
         //     System.out.println(i);
         // }
         lst.get(2);
+        sc.close();
     }
 }

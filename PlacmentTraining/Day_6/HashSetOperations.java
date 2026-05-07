@@ -12,6 +12,7 @@ public class HashSetOperations {
         for(int i:set){
             System.out.println(i);
         }
+        sc.close();
 }
 }
 
